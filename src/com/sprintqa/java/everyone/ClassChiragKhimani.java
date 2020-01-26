@@ -6,5 +6,4 @@ public class ClassChiragKhimani {
 		System.out.println("Hello from Chirag");
 
 	}
-
 }
