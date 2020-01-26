@@ -1,5 +1,6 @@
+package com.sprintqa.java.everyone;
 
-public class NewClassFromNodira1
+public class ClassNodira
 {
 
 	public static void main (String[] args)
