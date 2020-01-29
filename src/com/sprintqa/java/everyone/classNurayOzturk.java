@@ -1,13 +1,27 @@
 package com.sprintqa.java.everyone;
 
 public class classNurayOzturk{
-	public static void main(String[] args) {
+	public static void isPrime(int number) {
+		for(int i=2; i<=number;i++) {
+			if( number==2|| number==1) {
+				System.out.println(number+"is prime");
+				break;
+			}if (number%i==0) { System.out.println(number+" is not prime");
+			break;
+			}
+			else {System.out.println(number+" is prime");
+			break;
+			}
+		}
 
-	// TODO Auto-generated constructor stub
+		}
+		public static void main(String[]args) {
+			isPrime ( 4);
+		}
 
+	
 
-System.out.println("Hello");
 }
 
 
-}
+
