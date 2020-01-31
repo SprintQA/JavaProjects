@@ -1,9 +1,9 @@
 package com.sprintqa.java.everyone;
 
-public class class_hasan_utku {
+public class ClassSelmaKaraagac {
 
 	public static void main(String[] args) {
-		System.out.println("Hello everyone!");
+		// TODO Auto-generated method stub
 
 	}
 
