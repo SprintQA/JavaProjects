@@ -1,9 +1,10 @@
 package com.sprintqa.javaclass17;
 
 public class gitexample {
-
+	int i=10;
 	public static void main(String[] args) {
-		System.out.print("you have to run daily");
+		int i=20;
+		
 
 	}
 
