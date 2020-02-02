@@ -17,6 +17,7 @@ public class PatternProgram1 {
 
 			System.out.println();
 		} // End of first for loop
+		
 
 	}
 }
