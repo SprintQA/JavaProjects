@@ -5,7 +5,7 @@ public class HomeAreaCalculatorMFU
 {
 	
 	
-	void mult (int length, int width)
+	void areacalculation (int length, int width)
 	{
 		System.out.println ("area= " + (length * width));
 	}
@@ -14,13 +14,15 @@ public class HomeAreaCalculatorMFU
 	
 	public static void main (String [] args)
 	{
-		HomeAreaCalculatorMFU myhome = new HomeAreaCalculatorMFU ();
-		myhome.mult(15, 10);
+	HomeAreaCalculatorMFU myhomebedroom = new HomeAreaCalculatorMFU ();
+	myhomebedroom.areacalculation(15, 10);
+		
+	HomeAreaCalculatorMFU myhomekitchen = new HomeAreaCalculatorMFU ();
+	myhomekitchen.areacalculation(15, 10);
+
+	HomeAreaCalculatorMFU myhomelivingroom = new HomeAreaCalculatorMFU ();
+	myhomelivingroom.areacalculation(15, 10);
 		
 	}
 	
-
-		
-	}
-	
-
+}
