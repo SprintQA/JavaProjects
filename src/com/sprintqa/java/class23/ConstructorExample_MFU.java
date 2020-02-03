@@ -5,7 +5,7 @@ class HSBCAccount {
 	int balance;
 	int accountNumber;
 	String accountName;
-static int displayaccount;
+	static int count;
 
 	// Default constructor
 	public HSBCAccount() {
@@ -13,6 +13,7 @@ static int displayaccount;
 		accountName = "xyz";
 		accountNumber = 1;
 		
+		count++;
 	}
 
 	public void withdraw(int amount) {
@@ -24,15 +25,16 @@ static int displayaccount;
 public class ConstructorExample_MFU {
 	public static void main(String[] args) {
 		HSBCAccount account1 = new HSBCAccount();
-		account1.displayaccount++;
+	
 		HSBCAccount account2 = new HSBCAccount();
-		account2.displayaccount++;
-		HSBCAccount account3 = new HSBCAccount();
-		account3.displayaccount++;
-		HSBCAccount account4 = new HSBCAccount();
-		account4.displayaccount++;
 		
-		System.out.println(account4.displayaccount);
+		HSBCAccount account3 = new HSBCAccount();
+	
+		HSBCAccount account4 = new HSBCAccount();
+		
+		
+		
+		System.out.println(HSBCAccount.count);
 		
 	}
 }
