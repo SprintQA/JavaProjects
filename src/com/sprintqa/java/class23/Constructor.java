@@ -25,10 +25,7 @@ public class Constructor {
 
 		Animal a1 = new Animal();
 		Animal a2 = new Animal();
-		Animal a3 = new Animal();
-		
+		Animal a3 = new Animal();		
 		
 		System.out.println(a1.numberOfLegs);
-	}
-
-}
+	}}
