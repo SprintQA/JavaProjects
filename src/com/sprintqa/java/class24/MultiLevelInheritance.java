@@ -30,7 +30,6 @@ public class MultiLevelInheritance {
 		b.weep();
 		
 		Dog d = new Dog();
-		d.weep();
 		
 	}
 
