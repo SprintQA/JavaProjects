@@ -3,12 +3,10 @@ package com.sprintqa.java.class22;
 class BankAccount3 {
 	
 	// Encapsulation
-	
 	// private - within a class only 
 	// public -  everywhere 
 	// default - access inside package only 
 	// Protected - 
-	
 	
 	protected int balance;
 	int accountNumber;
