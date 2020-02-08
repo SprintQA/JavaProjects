@@ -20,5 +20,12 @@ public class MultiLevelInheritance {
 		b.bark();
 		b.weep();
 		Dog d = new Dog();
+<<<<<<< HEAD
 		d.weep();
 		}}
+=======
+		
+	}
+
+}
+>>>>>>> e091283f91a447cefc59a868718fa7d6180b7b94

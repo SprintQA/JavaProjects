@@ -3,49 +3,6 @@ package com.sprintqa.java.class18;
 public class Methods {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
-
-		int num1=10, num2=20;
-		
-		
-		System.out.println("Hello World");
-		System.out.println("============================");
-		System.out.println("addition "+(num1+num2));
-		PrintLn('*',10); 
-		System.out.println("substraction "+(num1-num2));
-		//PrintLn(50); 
-		System.out.println("multiplication "+num1*num2);
-		System.out.println("division "+num1/num2);
-	}
-
-	public static void PrintLn(char Characterp, int limit) {
-		for (int i=0; i<=limit; i++)
-		System.out.print(Characterp);
-	}
-	
-}
-=======
-<<<<<<< HEAD
-		int num1=10, num2=20;
-		
-		System.out.println("addition" + (num1+num2));
-		printLine();
-		System.out.println("subtraction" + (num1-num2));
-		printLine();
-		System.out.println("multiplication" + (num1*num2));
-		printLine();
-		System.out.println("Division" + (num1/num2));
-}
-
-	public static void printLine() {
-		
-		System.out.println("=================");
-	}
-}
-//public / private / protected / default
-// [access specifier] [return type] [method name](){
-// }
-=======
 		int num1 = 10, num2 = 20;
 		System.out.println("Hello Wolrd!");
 		printLine('*',10);			// Method call
@@ -77,5 +34,3 @@ public class Methods {
 //	}
 
 }
->>>>>>> ce11acecc90bb283615068e4b710dd19fe558435
->>>>>>> 0811306daa7ec1bd9ddd3e36c93a59ac3e74aa49

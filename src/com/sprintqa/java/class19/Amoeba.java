@@ -1,6 +1,6 @@
 package com.sprintqa.java.class19;
 
-public class Adres
+public class Amoeba
 {
 	int xPt, yPt;
 	
