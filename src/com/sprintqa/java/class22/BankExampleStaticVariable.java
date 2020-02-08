@@ -1,11 +1,9 @@
 package com.sprintqa.java.class22;
-
 class BankAccount{
 	static int custCount=0;
 	int balance;
 	int accountNumber;
 	String accountName;
-	
 	
 	public void checkBalance() {
 		System.out.println(balance);
@@ -15,26 +13,20 @@ class BankAccount{
 		
 	}
 	
-	public void deposit(int amount) {
-		
+	public void deposit(int amount) {		
 	}
-	
-	public static int getCustomerCount() {
+		public static int getCustomerCount() {
 		return custCount;
 	}
 	
 	public static int getBalance() {
 		return custCount;
 	}
-	
-}
-
-public class BankExampleStaticVariable {
+	}
+	public class BankExampleStaticVariable {
 
 	public static void main(String[] args) {
 		BankAccount cust1 = new BankAccount();
-		
-	
 		
 		cust1.balance = 1000;
 		cust1.accountName = "xyz";
@@ -48,8 +40,5 @@ public class BankExampleStaticVariable {
 		cust2.accountNumber = BankAccount.custCount;
 		
 		BankAccount.getCustomerCount();
-		
-		
-
-	}
+		}
 }
