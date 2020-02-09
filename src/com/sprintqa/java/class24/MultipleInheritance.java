@@ -1,6 +1,5 @@
 package com.sprintqa.java.class24;
 
-
 class A {
 	public void displayLine() {
 		System.out.println("***************");
@@ -13,10 +12,10 @@ class B {
 	}
 }
 
-class C extends A,B {
-	
-}
+class C extends A// , B
+{
 
+}
 
 public class MultipleInheritance {
 
