@@ -25,7 +25,13 @@ public class MultiLevelInheritance {
 		b.eat();
 		b.bark();
 		b.weep();
+<<<<<<< HEAD
 				
+=======
+		
+		Dog d = new Dog();
+		
+>>>>>>> d4083a441fec3acd3af3029e4fb48467d88a1639
 	}
 
 }
