@@ -1,16 +1,11 @@
 package com.sprintqa.java.class26;
-
-
 //Method OverLoading
 //1. Number of parameter is different
 //2. Same number of parameter and type of parameter is different
 
 public class PolymorphismExample1 {
 	//Method overloading - Same method name but different signature
-	
-
-	
-	
+		
 	// Method without parameter
 	public void show() {
 		System.out.println("Inside show method with no parameter");
@@ -33,7 +28,6 @@ public class PolymorphismExample1 {
 //		PolymorphismExample1 p1 = new PolymorphismExample1();
 //		p1.show(2.0);
 	}
-	
 	public static void main() {
 		System.out.println("This is from main method without argument");
 	}
