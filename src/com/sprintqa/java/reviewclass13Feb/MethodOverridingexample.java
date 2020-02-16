@@ -7,7 +7,9 @@ class A {
 }
 
 class B extends A {
-	
+	public void display() {
+		System.out.println("Methods from child class");
+	}
 
 }
 
