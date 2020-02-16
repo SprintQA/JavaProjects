@@ -4,20 +4,24 @@ class Bank1 {
 
 	// How to call two constructor from a constructor
 	public void testMethod() {
-		System.out.println("test");
-		testMethod();
+		//System.out.println("test");
+		
 	}
 
 	public Bank1() {
-//		this("Test it");
-		this(10,20);
+	this(10,20);	
+				
 	}
 
 	public Bank1(String test) {
-
+		
+		System.out.println("String test");
+	 
 	}
 	
 	public Bank1(int a, int b) {
+		this("Test it");
+		System.out.println("Int test");
 
 	}
 
