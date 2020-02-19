@@ -5,8 +5,12 @@ class HSBCAccount {
 	int balance;
 	int accountNumber;
 	String accountName;
+<<<<<<< HEAD
+  static int count=0;
+=======
 	static int count=0;
 
+>>>>>>> e091283f91a447cefc59a868718fa7d6180b7b94
 	// Default constructor
 	public HSBCAccount() {
 		balance = 1000;
@@ -29,5 +33,10 @@ public class ConstructorExample {
 		HSBCAccount account4 = new HSBCAccount();
 		
 		System.out.println(HSBCAccount.count);
+<<<<<<< HEAD
+		
+	}
+=======
 			}
+>>>>>>> e091283f91a447cefc59a868718fa7d6180b7b94
 }

@@ -18,9 +18,6 @@ class BabyDog extends Dog{
 		System.out.println("weepping....");
 	}
 }
-
-
-
 public class MultiLevelInheritance {
 
 	public static void main(String[] args) {
@@ -28,6 +25,9 @@ public class MultiLevelInheritance {
 		b.eat();
 		b.bark();
 		b.weep();
+<<<<<<< HEAD
+				
+=======
 		
 <<<<<<< HEAD
 		//Dog d = new Dog();
@@ -36,6 +36,7 @@ public class MultiLevelInheritance {
 		Dog d = new Dog();
 >>>>>>> d4083a441fec3acd3af3029e4fb48467d88a1639
 		
+>>>>>>> d4083a441fec3acd3af3029e4fb48467d88a1639
 	}
 
 }
