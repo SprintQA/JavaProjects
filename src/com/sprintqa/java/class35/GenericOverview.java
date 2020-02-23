@@ -1,8 +1,7 @@
 package com.sprintqa.java.class35;
 
-class Box<T,S> {
+class Box<T> {
 	private T a;
-	private S storeString;
 
 	public void setMyData(T dataFromUser) {
 		a = dataFromUser;
@@ -16,7 +15,7 @@ class Box<T,S> {
 public class GenericOverview {
 	public static void main(String[] args) {
 
-		Box<String, Integer> stringBox = new Box<String,Integer>();
+		Box<String> stringBox = new Box<String>();
 		stringBox.setMyData("Hello");
 		System.out.println(stringBox.getMyData());
 
