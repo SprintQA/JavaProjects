@@ -1,5 +1,6 @@
 package com.sprintqa.java.class32;
 
+<<<<<<< HEAD
 interface Vehical {
 	public void changeGear(int gearNumber);
 
@@ -21,63 +22,43 @@ class Bike implements Vehical {
 	}
 
 	@Override
+=======
+abstract class Vehical {
+	int gear, speed;
+
+>>>>>>> 4486fe0713843b7c667978969c0c61c436ef8292
 	public void changeGear(int gearNumber) {
 		gear = gearNumber;
 	}
 
-	@Override
 	public void speedUp(int speedCount) {
 		speed = speed + speedCount;
 	}
 
-	@Override
 	public void applyBreak(int breakCount) {
-		speed = speed - breakCount;
+		if (breakCount > speed) {
+			speed = 0;
+		} else {
+			speed = speed - breakCount;
+		}
 	}
 
-	@Override
 	public void displayStatus() {
 		System.out.println("Running at speed " + speed + " with gear number " + gear);
 	}
 
-	@Override
 	public void servicing() {
 		speed = 0;
 		gear = 0;
 		System.out.println("Servicing........");
 	}
+}
+
+class Bike extends Vehical {
 
 }
 
-class Car implements Vehical {
-	int speed, gear;
-
-	@Override
-	public void changeGear(int gearNumber) {
-		gear = gearNumber;
-	}
-
-	@Override
-	public void speedUp(int speedCount) {
-		speed = speed + speedCount;
-	}
-
-	@Override
-	public void applyBreak(int breakCount) {
-		speed = speed - breakCount;
-	}
-
-	@Override
-	public void displayStatus() {
-		System.out.println("Running at speed " + speed + " with gear number " + gear);
-	}
-
-	@Override
-	public void servicing() {
-		speed = 0;
-		gear = 0;
-		System.out.println("Servicing........");
-	}
+class Car extends Vehical {
 
 }
 
@@ -85,7 +66,7 @@ class Repair {
 	public void doService(Vehical v) {
 		v.servicing();
 	}
-	
+
 }
 
 public class InterfaceExample {
@@ -93,7 +74,7 @@ public class InterfaceExample {
 		Car AudiA4 = new Car();
 		Bike suzukiBike = new Bike();
 		Repair r = new Repair();
-		
+
 		AudiA4.displayStatus();
 		AudiA4.changeGear(3);
 		AudiA4.speedUp(50);

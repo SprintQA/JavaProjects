@@ -1,28 +1,35 @@
 package com.sprintqa.java.class32;
 
 interface Flower{
-	public abstract void bloom(String month); 
-	public abstract void smell(String quality);
+	public abstract void month(); 
+	public abstract void quality();
 }
-class Rose implements Flower{
+abstract class Piony{
+	public abstract void bloom();
+}
 
-	String month, quality;
-	Rose(){	
-		}
-	
-	public void bloom(String month) {
-		System.out.println("Roses bloom in " + r.bloom());
+class Rose extends Piony implements Flower{
+
+	public void month() {
+		System.out.println("Roses bloom in ");
 		
 	}
-	public void smell(String quality) {
-		System.out.println("Roses smell "+ r.smell());
-		}
-	
-	
-public  class InterfaceMyExample{
-	public  void main(String[] args) {
-	Rose r = new Rose();
-	r.smell("fantastic");
-	r.bloom("June");
 
-	}}}
+	public void quality() {
+		System.out.println("Roses smell fantastic");
+		
+		
+	}
+	@Override
+	public void bloom() {
+		
+		
+	}
+public class InterfaceMyExample{
+	public static void main(String [] args) {
+		
+	}
+	
+}
+
+}
