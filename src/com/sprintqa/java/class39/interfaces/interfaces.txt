@@ -1,0 +1,27 @@
+Interface
+-----------
+An interface is similar to an abstract class, except that in an abstract class there can be some methods that are implemented.
+However, an interface consists of all abstract methods. Because all of the methods of an interface are abstract by nature,
+there's no need to declare the methods as abstract. It's just a given.
+The other way interfaces are different from abstract classes is that interfaces are implemented, not extended.
+Any class that implements an interface must implement all of its methods, or it must declare itself as an abstract class.
+
+If you define a field within an interface, then that field has to be final. Because it's final, it's essentially a constant,
+and therefore you have to also give it a value.
+
+
+Key Points on Interfaces
+---------------------------
+- Interfaces cannot be instantiated.
+- Interfaces are implemented, not extended.
+- Any class that implements an interface must implement all of its methods or it must declare itself abstract.
+- Methods in an interface must be default or abstract (there's no explicit declaration needed for abstract methods)
+- Also notice that we didn't put an access modifier on the methods in an interface, either.
+That's because by default they're all public.
+- What we have between interfaces and the classes that implement them is a contract.
+
+Implementing Multiple Interfaces
+While a class can only extend one class, it can implement multiple interfaces.
+To implement multiple interfaces, the class header must specify a comma delimited list of names of all of the
+interfaces that it would like to implement.
+If a class declares that it will implement multiple interfaces, then it must provide the methods specified by all of those interfaces.

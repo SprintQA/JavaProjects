@@ -1,0 +1,29 @@
+Definition
+-----------
+The static keyword is a non-access modifier used for a class's attributes and methods to be accessed without creating 
+any object of that class.
+
+Usage
+--------
+You can declare variables and methods of a class as static.
+
+Example
+--------
+The most common example is the main() method.
+
+When to use static?
+--------------------
+1. If you're writing utility classes and they are not supposed to be changed.
+2. If you are sure that the definition of the method will never be changed or overridden.
+3. If there is some code that can easily be shared by all the instance methods, extract that code into a static method.
+
+Rule of Thumb
+-------------
+Ask yourself "does it make sense to call this method, even if no Obj has been constructed yet?" If so, it should definitely be static.
+
+Cautions
+-----------
+Methods declared as static have several restrictions:
+• They can only directly call other static methods of their class.
+• They can only directly access static variables of their class.
+• They cannot refer to this or super in any way. 
