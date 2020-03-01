@@ -1,0 +1,18 @@
+Encapsulation
+-------------
+The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+- declare class variables/attributes as private
+- provide public get and set methods to access and update the value of a private variable
+
+The get method returns the variable value, and the set method sets the value.
+Getter and Setter Methods:
+Getters and Setters are used to effectively protect your data, particularly when creating classes. For each instance variable,
+a getter method returns its value while a setter method sets or updates its value. Getters and setters are also known as
+accessors and mutators, respectively.
+
+Why Encapsulation?
+------------------
+Better control of class attributes and methods
+Class attributes can be made read-only (if you only use the get method), or write-only (if you only use the set method)
+Flexible: the programmer can change one part of the code without affecting other parts
+Increased security of data.

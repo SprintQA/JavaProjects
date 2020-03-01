@@ -1,0 +1,15 @@
+Definition
+----------
+The super keyword refers to superclass (parent) objects.
+
+Usage
+-------
+Whenever a subclass needs to refer to its immediate superclass, it can do so by use of the keyword super.
+
+Also, the super has two general forms. The first calls the superclass’ constructor.
+The second is used to access a member of the superclass that has been hidden by a member of a subclass.
+
+When to use super?
+------------------
+The most common use of the super keyword is to eliminate the confusion between superclasses and subclasses
+that have members with the same name.

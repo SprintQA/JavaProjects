@@ -1,0 +1,38 @@
+Polymorphism
+--------------
+Polymorphism is the ability to take multiple forms. Specifically, in object-oriented programming,
+polymorphism is where a subclass can define their own unique
+behaviors, and yet share some of the same behaviors of their superclass.
+An example of polymorphism is where an object has a superclass type but is an instance of a subclass.
+
+Method Overriding
+------------------
+In a class hierarchy, when a method in a subclass has the same name and type
+signature as a method in its superclass, then the method in the subclass is said
+to override the method in the superclass. When an overridden method is called
+from within its subclass, it will always refer to the version of that method
+defined by the subclass. The version of the method defined by the superclass
+will be hidden.
+
+Overloading
+--------------
+In method overloading, multiple methods can have the same name with different parameters.
+
+Dynamic Method Dispatch
+-----------------------
+Method overriding forms the basis for one of Java’s most powerful
+concepts: dynamic method dispatch. Dynamic method dispatch is the
+mechanism by which a call to an overridden method is resolved at run time,
+rather than compile time. Dynamic method dispatch is important because this
+is how Java implements run-time polymorphism.
+
+Important principle
+---------------------
+A superclass reference variable can refer to a subclass object. 
+Java uses this fact to resolve calls to overridden methods at run time.
+
+Benefit
+----------
+Code Reusability
+
+

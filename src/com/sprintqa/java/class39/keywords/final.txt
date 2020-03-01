@@ -1,0 +1,18 @@
+Definition
+-----------
+The final keyword is a non-access modifier used for classes, attributes and methods, which makes them non-changeable
+(impossible to inherit or override).
+
+Notes
+-------
+A field can be declared as final. Doing so prevents its contents from being
+modified, making it, essentially, a constant. This means that you must initialize
+a final field when it is declared. You can do this in one of two ways: First, you
+can give it a value when it is declared. Second, you can assign it a value within
+a constructor.
+In addition to fields, both method parameters and local variables can be
+declared final. Declaring a parameter final prevents it from being changed
+within the method. Declaring a local variable final prevents it from being
+assigned a value more than once.
+The keyword final can also be applied to methods, but its meaning is
+substantially different than when it is applied to variables.
